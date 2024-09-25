@@ -16,7 +16,7 @@ import {
   IonCardContent,
 } from '@ionic/react';
 import { FiMusic } from 'react-icons/fi'; 
-import { GoHome, GoPackage,GoPerson, GoChevronDown } from 'react-icons/go';
+import { GoHome, GoPackage,GoPerson, GoChevronDown, GoQuestion , GoCalendar} from 'react-icons/go';
 import { library, search } from 'ionicons/icons'; // Use homeOutline for the icon
 import '../index.css';
 import { CgMenuGridO } from "react-icons/cg";
@@ -69,7 +69,7 @@ function Example() {
                         </IonCardHeader>
                         <IonCardContent className="">
                           {/* Date and time */}
-                          <div className="text-sm text-gray-500">Created at: 01/4/24</div>
+                          <div className="text-[0.8rem] text-gray-500 flex gap-2 items-center"><GoCalendar /> 01/4/24</div>
                         </IonCardContent>
                       </IonCard>
                     </a>
@@ -83,7 +83,7 @@ function Example() {
                       </IonCardHeader>
                       <IonCardContent className="">
                         {/* Date and time */}
-                        <div className="text-sm text-gray-500">Created at: 01/4/24</div>
+                        <div className="text-[0.8rem] text-gray-500 flex gap-2 items-center"><GoCalendar /> 01/4/24</div>
                       </IonCardContent>
                     </IonCard>
                   </a>
@@ -96,8 +96,7 @@ function Example() {
                         <IonCardTitle className="text-sm font-semibold">Academe SMS Demo</IonCardTitle> {/* Title with a smaller font */}
                       </IonCardHeader>
                       <IonCardContent className="">
-                      
-                        <div className="text-sm text-gray-500">Created at: 01/4/24</div>
+                      <div className="text-[0.8rem] text-gray-500 flex gap-2 items-center"><GoCalendar /> 01/4/24</div>
                       </IonCardContent>
                     </IonCard>
                   </a>
@@ -105,12 +104,12 @@ function Example() {
                     <IonCard className="listen-now-card mt-4">
                       <IonCardHeader className="flex items-start"> 
          
-                        <IonImg src={cassareal} alt='Academe LMS' className='h-8 w-10' />
+                        <IonImg src={cassareal} alt='Academe LMS' className='h-6 w-10' />
                         <IonCardTitle className="text-sm font-semibold">CassaReal Real Estate</IonCardTitle> {/* Title with a smaller font */}
                       </IonCardHeader>
                       <IonCardContent className="">
                       
-                        <div className="text-sm text-gray-500">Created at: 01/4/24</div>
+                        <div className="text-[0.8rem] text-gray-500 flex gap-2 items-center"><GoCalendar /> 01/4/24</div>
                       </IonCardContent>
                     </IonCard>
                   </a>
@@ -127,12 +126,12 @@ function Example() {
         <div id="radio-page" className="h-full flex flex-col">
           <IonHeader>
             <IonToolbar>
-              <IonTitle>Radio</IonTitle>
+              <IonTitle>Explore</IonTitle>
             </IonToolbar>
           </IonHeader>
           <IonContent className="flex-1">
             <div className="container mx-auto p-4"> {/* Container for styling */}
-              <div className="example-content">Radio content</div>
+              <div className="example-content">Explore content</div>
             </div>
           </IonContent>
         </div>
@@ -142,12 +141,12 @@ function Example() {
         <div id="library-page" className="h-full flex flex-col">
           <IonHeader>
             <IonToolbar>
-              <IonTitle>Library</IonTitle>
+              <IonTitle>Help</IonTitle>
             </IonToolbar>
           </IonHeader>
           <IonContent className="flex-1">
             <div className="container mx-auto p-4"> {/* Container for styling */}
-              <div className="example-content">Library content</div>
+              <div className="example-content">Help content</div>
             </div>
           </IonContent>
         </div>
@@ -157,12 +156,12 @@ function Example() {
         <div id="search-page" className="h-full flex flex-col">
           <IonHeader>
             <IonToolbar>
-              <IonTitle>Search</IonTitle>
+              <IonTitle>Profile</IonTitle>
             </IonToolbar>
           </IonHeader>
           <IonContent className="flex-1">
             <div className="container mx-auto p-4"> {/* Container for styling */}
-              <div className="example-content">Search content</div>
+              <div className="example-content">Profile content</div>
             </div>
           </IonContent>
         </div>
@@ -178,8 +177,8 @@ function Example() {
           Explore
         </IonTabButton>
         <IonTabButton tab="library">
-          <IonIcon icon={library} />
-          Library
+         <GoQuestion className='w-10 h-6' />
+          Help
         </IonTabButton>
         <IonTabButton tab="search">
         <GoPerson className='w-10 h-6' />
