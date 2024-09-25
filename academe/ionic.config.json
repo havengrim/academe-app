@@ -1,0 +1,7 @@
+{
+  "name": "academe",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

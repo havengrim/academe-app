@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-custom-searchbar {
+    --box-shadow: none; /* Remove shadow */
+  --background: #fff; /* Set background color */
+  border: 1px solid #e2e4e3; /* Add a solid border (adjust color and width as needed) */
+  border-radius: 24px; /* Optional: Rounded corners */
+  padding: 0 10px; 
+}
+
+
+  
