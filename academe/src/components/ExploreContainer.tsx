@@ -87,7 +87,8 @@ function Example() {
                       </IonCardContent>
                     </IonCard>
                   </a>
-
+                  <a href="https://academe.schoolmanagementsystem.space/vmuf.college/system/">
+                 
                     <IonCard className="listen-now-card mt-4">
                       <IonCardHeader className="flex items-start"> 
          
@@ -99,7 +100,8 @@ function Example() {
                         <div className="text-sm text-gray-500">Created at: 01/4/24</div>
                       </IonCardContent>
                     </IonCard>
-                  <a href="https://www.cassareal.com">
+                  </a>
+                  <a href="https://cassareal.com/">
                     <IonCard className="listen-now-card mt-4">
                       <IonCardHeader className="flex items-start"> 
          
