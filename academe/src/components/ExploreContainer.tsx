@@ -87,7 +87,7 @@ function Example() {
                       </IonCardContent>
                     </IonCard>
                   </a>
-                  <a href="https://academe.schoolmanagementsystem.space/vmuf.college/system/">
+                  <a href="https://academe.schoolmanagementsystem.space/demo.college">
                  
                     <IonCard className="listen-now-card mt-4">
                       <IonCardHeader className="flex items-start"> 
